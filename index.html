@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="main.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Simple</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="https://www.freepnglogos.com/uploads/logo-website-png/logo-website-website-tools-design-website-name-logo-posters-and-25.png" />
+      </div>
+      <div class="hamIcon" onclick="toggleClass()">
+          <h1>&#9776;</h1>
+      </div>
+      <nav class="nav-bar mainMenu " id="myTopnav">  
+        <li class="nav-link"><a href="#" class="nav">home</a></li>
+        <li class="nav-link"><a href="#contact" class="nav">contact</a></li>
+        <li class="nav-link"><a href="#about" class="nav">about us</a></li>
+        <li class="nav-link"><a href="#support" class="nav">support</a></li>
+      </nav>
+     </div>
+    <section class="head-title" id="about">
+      <div class="background">
+        <div class="text-handle">
+          <div class="bfirst">
+            <h1 class="main-title">
+              nano
+              <div class="title-des">Tech</div>
+            </h1>
+            <p class="sub-title">since 2003</p>
+          </div>
+          <div class="bsecond">
+            <button class="btn btn-md btn-1">check</button>
+            <button class="btn btn-md btn-2">invest</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-section">
+        <div class="container-2" >
+            <div class="a-img">
+                <img src="https://source.unsplash.com/random/200x200/?coding,apple" alt="image1">
+            </div>
+            <div class="a-text">
+                <h2>Nano service</h2>
+                <p>Nanotechnology, also shortened to nanotech, is the use of matter on an atomic, molecular, and supramolecular scale for industrial purposes. The earliest, widespread description of nanotechnology referred to the particular technological goal of precisely manipulating atoms and molecules for fabrication of macroscale products, also now referred to as molecular nanotechnology.[1][2] A more generalized description of nanotechnology was subsequently established by the National Nanotechnology Initiative, which defined nanotechnology as the manipulation of matter with at least one dimension sized from 1 to 100 nanometers. This definition reflects the fact that quantum mechanical effects are important at this quantum-realm scale, and so the definition shifted from a particular technological goal to a research category inclusive of all types of research and technologies that deal with the special properties of matter which occur below the given size threshold. It is therefore common to see the plural form "nanotechnologies" as well as "nanoscale technologies" to refer to the broad range of research and applications whose common trait is size.</p>
+            </div>
+        </div>
+        <hr class="hori-row"/>
+    </div>
+    <div class="container-2 container-rev" >
+        <div class="a-img">
+            <img src="https://source.unsplash.com/random/200x200/?automation" alt="image1">
+        </div>
+        <div class="a-text">
+            <h2>Automation</h2>
+            <p>Computers can perform both sequential control and feedback control, and typically a single computer will do both in an industrial application. Programmable logic controllers (PLCs) are a type of special-purpose microprocessor that replaced many hardware components such as timers and drum sequencers used in relay logic type systems. General-purpose process control computers have increasingly replaced stand-alone controllers, with a single computer able to perform the operations of hundreds of controllers.precisely manipulating atoms and molecules for fabrication of macroscale products, also now referred to as molecular nanotechnology.[1][2] A more generalized description of nanotechnology was subsequently established by the National Nanotechnology Initiative, which defined nanotechnology as the manipulation of matter with at least one dimension sized from 1 to 100 nanometers</p>
+        </div>
+    </div>
+    <hr class="hori-row"/>
+</div>
+<div class="container-2" >
+    <div class="a-img">
+        <img src="https://source.unsplash.com/random/200x200/?robot,robotics" alt="image1">
+    </div>
+    <div class="a-text">
+        <h2>Robotics</h2>
+        <p>Robotics is an interdisciplinary field that integrates computer science and engineering.[1] Robotics involves design, construction, operation, and use of robots. The goal of robotics is to design machines that can help and assist humans. Robotics integrates fields of mechanical engineering, electrical engineering, information engineering, mechatronics, electronics, bioengineering, computer engineering, control engineering, software engineering, mathematics, among others.Computers can perform both sequential control and feedback control, and typically a single computer will do both in an industrial application. Programmable logic controllers (PLCs) are a type of special-purpose microprocessor that replaced many hardware components such as timers and drum sequencers used in relay logic type systems.</p>
+    </div>
+</div>
+<hr class="hori-row"/>
+</div>
+<div class="container-2 container-rev" >
+    <div class="a-img">
+        <img src="https://source.unsplash.com/random/200x200/?bigdata,cloudcompute" alt="image1">
+    </div>
+    <div class="a-text">
+        <h2>Big data</h2>
+        <p>Big data is a field that treats ways to analyze, systematically extract information from, or otherwise deal with data sets that are too large or complex to be dealt with by traditional data-processing application software. Data with many fields (columns) offer greater statistical power, while data with higher complexity (more attributes or columns) may lead to a higher false discovery rate.[2] Big data analysis challenges include capturing data, data storage, data analysis, search, sharing, transfer, visualization, querying, updating, information privacy, and data source. Big data was originally associated with three key concepts: volume, variety, and velocity.</p>
+    </div>
+</div>
+</div>
+    </section>
+    <footer class="contact" id="contact">
+        <h1>Contact</h1>
+    <form class="form">
+    <p>email:</p><input class="form-control" type="email" placeholder="xyz@mail.com">
+    <p>phone:</p><input class="form-control" type="text" placeholder="978XXXXXXX">
+    <!-- <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea> -->
+    </form>
+    <button type="submit"  class="submit-btn">submit</button>
+    <div class="copyright"  id="support">
+    &copy; Copyright 2021 nanotech</div>
+    </footer>
+<script>
+   function toggleClass(){
+       let menu = document.querySelector(".mainMenu");
+       menu.classList.toggle("toggleCls");
+   }
+</script>
+ </body>
+</html>
